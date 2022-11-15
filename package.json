@@ -7,7 +7,7 @@
   "scripts": {
     "test": "yarn build && jest",
     "lint": "tslint -p . -t verbose",
-    "shipit": "yarn build && yarn scriptbundle && yarn minbundle && np",
+    "prepare": "yarn build && yarn scriptbundle && yarn minbundle && np",
     "build": "tsc --skipLibCheck",
     "toc": "doctoc .",
     "contributors:add": "all-contributors add",
